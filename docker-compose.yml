@@ -19,7 +19,7 @@ services:
     ports:
       - "8080:8081"
     environment:
-      - DB_HOST=db
+      - DB_HOST=localhost
       - DB_PORT=5432
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
